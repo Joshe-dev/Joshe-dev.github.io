@@ -56,7 +56,6 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
         run: |
-          cd Joshe-dev/ && \
           hugo \
             --gc \
             --minify \
